@@ -9,21 +9,48 @@
 /* Begin PBXBuildFile section */
 		932C2EB9296D365300C30954 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932C2EB8296D365300C30954 /* AppDelegate.swift */; };
 		932C2EBB296D365300C30954 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932C2EBA296D365300C30954 /* SceneDelegate.swift */; };
-		932C2EBD296D365300C30954 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932C2EBC296D365300C30954 /* ViewController.swift */; };
-		932C2EC0296D365300C30954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 932C2EBE296D365300C30954 /* Main.storyboard */; };
+		932C2EBD296D365300C30954 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932C2EBC296D365300C30954 /* ConversationsViewController.swift */; };
 		932C2EC2296D365500C30954 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 932C2EC1296D365500C30954 /* Assets.xcassets */; };
 		932C2EC5296D365500C30954 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 932C2EC3296D365500C30954 /* LaunchScreen.storyboard */; };
+		932C2ED2296D3CC700C30954 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932C2ED1296D3CC700C30954 /* LoginViewController.swift */; };
+		932C2ED4296D3EB500C30954 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 932C2ED3296D3EB500C30954 /* GoogleService-Info.plist */; };
+		932C2EEE296E6DCC00C30954 /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932C2EED296E6DCC00C30954 /* ContactList.swift */; };
+		932C2EF2296E79EF00C30954 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932C2EF1296E79EF00C30954 /* RegisterViewController.swift */; };
+		932C2EF4296E7A1700C30954 /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932C2EF3296E7A1700C30954 /* PhotoViewerViewController.swift */; };
+		932C2EF6296E7A9400C30954 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932C2EF5296E7A9400C30954 /* VideoPlayerViewController.swift */; };
+		932C2EF8296E7AB700C30954 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932C2EF7296E7AB700C30954 /* NewConversationViewController.swift */; };
+		932C2EFA296E7ACB00C30954 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932C2EF9296E7ACB00C30954 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		932C2EEA296D408700C30954 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		932C2EB5296D365300C30954 /* ChatApp01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatApp01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		932C2EB8296D365300C30954 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		932C2EBA296D365300C30954 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		932C2EBC296D365300C30954 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		932C2EBF296D365300C30954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		932C2EBC296D365300C30954 /* ConversationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
 		932C2EC1296D365500C30954 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		932C2EC4296D365500C30954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		932C2EC6296D365500C30954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		932C2ED1296D3CC700C30954 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		932C2ED3296D3EB500C30954 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		932C2EED296E6DCC00C30954 /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
+		932C2EF1296E79EF00C30954 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		932C2EF3296E7A1700C30954 /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
+		932C2EF5296E7A9400C30954 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		932C2EF7296E7AB700C30954 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
+		932C2EF9296E7ACB00C30954 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +83,78 @@
 		932C2EB7296D365300C30954 /* ChatApp01 */ = {
 			isa = PBXGroup;
 			children = (
-				932C2EB8296D365300C30954 /* AppDelegate.swift */,
-				932C2EBA296D365300C30954 /* SceneDelegate.swift */,
-				932C2EBC296D365300C30954 /* ViewController.swift */,
-				932C2EBE296D365300C30954 /* Main.storyboard */,
-				932C2EC1296D365500C30954 /* Assets.xcassets */,
-				932C2EC3296D365500C30954 /* LaunchScreen.storyboard */,
+				932C2EF0296E786A00C30954 /* Controllers */,
+				932C2EEF296E768900C30954 /* Resources */,
+				932C2ED0296D37B500C30954 /* Model */,
+				932C2ECE296D37A100C30954 /* View */,
+				932C2ECF296D37A700C30954 /* ViewModel */,
+				932C2ED3296D3EB500C30954 /* GoogleService-Info.plist */,
 				932C2EC6296D365500C30954 /* Info.plist */,
 			);
 			path = ChatApp01;
+			sourceTree = "<group>";
+		};
+		932C2ECE296D37A100C30954 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				932C2EC1296D365500C30954 /* Assets.xcassets */,
+				932C2EC3296D365500C30954 /* LaunchScreen.storyboard */,
+				932C2EEC296E6DBA00C30954 /* Chat */,
+				932C2EEB296E6DA500C30954 /* Contacts */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		932C2ECF296D37A700C30954 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		932C2ED0296D37B500C30954 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		932C2EEB296E6DA500C30954 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				932C2EED296E6DCC00C30954 /* ContactList.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		932C2EEC296E6DBA00C30954 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		932C2EEF296E768900C30954 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				932C2EB8296D365300C30954 /* AppDelegate.swift */,
+				932C2EBA296D365300C30954 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		932C2EF0296E786A00C30954 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				932C2EBC296D365300C30954 /* ConversationsViewController.swift */,
+				932C2ED1296D3CC700C30954 /* LoginViewController.swift */,
+				932C2EF1296E79EF00C30954 /* RegisterViewController.swift */,
+				932C2EF3296E7A1700C30954 /* PhotoViewerViewController.swift */,
+				932C2EF5296E7A9400C30954 /* VideoPlayerViewController.swift */,
+				932C2EF7296E7AB700C30954 /* NewConversationViewController.swift */,
+				932C2EF9296E7ACB00C30954 /* ProfileViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +167,7 @@
 				932C2EB1296D365300C30954 /* Sources */,
 				932C2EB2296D365300C30954 /* Frameworks */,
 				932C2EB3296D365300C30954 /* Resources */,
+				932C2EEA296D408700C30954 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -96,6 +187,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					932C2EB4296D365300C30954 = {
 						CreatedOnToolsVersion = 14.2;
@@ -127,7 +219,7 @@
 			files = (
 				932C2EC5296D365500C30954 /* LaunchScreen.storyboard in Resources */,
 				932C2EC2296D365500C30954 /* Assets.xcassets in Resources */,
-				932C2EC0296D365300C30954 /* Main.storyboard in Resources */,
+				932C2ED4296D3EB500C30954 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +230,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				932C2EBD296D365300C30954 /* ViewController.swift in Sources */,
+				932C2EBD296D365300C30954 /* ConversationsViewController.swift in Sources */,
 				932C2EB9296D365300C30954 /* AppDelegate.swift in Sources */,
+				932C2EFA296E7ACB00C30954 /* ProfileViewController.swift in Sources */,
 				932C2EBB296D365300C30954 /* SceneDelegate.swift in Sources */,
+				932C2EF4296E7A1700C30954 /* PhotoViewerViewController.swift in Sources */,
+				932C2EF2296E79EF00C30954 /* RegisterViewController.swift in Sources */,
+				932C2EF6296E7A9400C30954 /* VideoPlayerViewController.swift in Sources */,
+				932C2EF8296E7AB700C30954 /* NewConversationViewController.swift in Sources */,
+				932C2ED2296D3CC700C30954 /* LoginViewController.swift in Sources */,
+				932C2EEE296E6DCC00C30954 /* ContactList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		932C2EBE296D365300C30954 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				932C2EBF296D365300C30954 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		932C2EC3296D365500C30954 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +374,7 @@
 		932C2ECA296D365500C30954 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -292,7 +384,6 @@
 				INFOPLIST_FILE = ChatApp01/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -311,6 +402,7 @@
 		932C2ECB296D365500C30954 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -320,7 +412,6 @@
 				INFOPLIST_FILE = ChatApp01/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
